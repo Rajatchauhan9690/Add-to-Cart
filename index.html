@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shoe Store</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Oswald:wght@400;700&family=Lato:wght@400;700&family=Montserrat:wght@400;700&family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <img src="Images/logo.jpg" alt="Logo" id="logoImage" class="logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Shop</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="cart-container">
+            <img src="Images/download.png" alt="Cart" id="cartIcon" class="cart">
+        </div>
+    </header>
+
+    <main>
+        <section class="product-display">
+            <div class="product-images">
+                <img src="Images/pic1.avif" alt="Main Shoe" id="mainShoeImage" class="main-shoe-image">
+                <div class="other-shoe-images">
+                    <img src="Images/pic2.avif" alt="Shoe 1" class="clickable-image">
+                    <img src="Images/pic3.avif" alt="Shoe 2" class="clickable-image">
+                    <img src="Images/pic4.avif" alt="Shoe 4" class="clickable-image">
+                    <img src="Images/pic5.jpeg" alt="Shoe 5" class="clickable-image">
+                    <img src="Images/pic8.avif" alt="Shoe 8" class="clickable-image">
+                </div>
+            </div>
+            <div class="product-options">
+                <h1>Casual Sneaker Shoes for Men | Soft Cushioned Insole, Slip-Resistance Sneakers For Men  (White)</h1>
+                <h2>Special Price</h2>
+                <h4>Rs.999/.</h4>
+                <select id="shoeSize" class="selector">
+                    <option value="">Size</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                    <option value="11">11</option>
+                </select>    
+            <div class="cart-quantity-container">
+            <input type="number" id="quantity" name="quantity" min="1" value="1" class="quantity-input">
+            <button id="addToCart">Add to Cart</button>
+            </div>
+                <p class="product-description"><h2>Product Details</h2>This shoe is perfect for running, walking, and other activities. <br>Its comfortable fit and durable design make it an ideal choice for anyone who values both style and functionality.
+                    <br><td>
+                    A shoe is an item of footwear intended to protect and comfort the human foot.</td><br>
+                    Though the human foot can adapt to varied terrains and climate conditions, 
+                    it is vulnerable, and shoes provide protection. <br>
+                    Form was originally tied to function, but over time, shoes also became fashion items.</p>
+                
+            </div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
